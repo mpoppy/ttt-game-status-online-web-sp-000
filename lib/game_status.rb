@@ -82,9 +82,7 @@ def winner(board)
 
   if won_board != false #meaning we have a winner
     winning_letter = won_board[0] #grab any value and store to figure out if X or O is the winner
-    if winning_letter == "X"
-      return winning_letter
-    end
+    return winning_letter
   else
     nil # no winner so return nil
   end
