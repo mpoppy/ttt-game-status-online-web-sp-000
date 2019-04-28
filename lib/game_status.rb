@@ -60,15 +60,8 @@ def full?(board)
 end
 
 def draw?(board)
-  #false if not won and board is not full
-  #false if the board is won
-  #use full method for full conditions
-  #use won board to see if board is won
-  #full?(board) #return true if the board has not been won but is full
-  # if won?(board) != false #there is a winner
-  #else
-  #  false
-#  end
+  if won(board) != false
+    false
 end
 
 def over?(board)
