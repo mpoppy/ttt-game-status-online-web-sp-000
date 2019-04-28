@@ -79,7 +79,7 @@ end
 
 def winner(board)
   won_board = won?(board) #this will return the winning array or the false
-  #need to find out what the winning was
+
   if won_board != false
     winning_letter = won_board[0]
     if winning_letter = "X"
@@ -87,7 +87,6 @@ def winner(board)
     elsif winning_letter = "O"
       return winning_letter
     end
-    return winning_letter
   else
     nil
   end
