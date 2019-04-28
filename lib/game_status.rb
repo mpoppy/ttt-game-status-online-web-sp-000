@@ -65,8 +65,8 @@ def draw?(board)
 
   if full_board != false && won_board = false
     true
-  elsif won_board != false
-    false
+  #elsif won_board != false
+  #  false
   else
     false
   end
