@@ -72,5 +72,6 @@ def over?(board)
   won_board = won?(board)
   draw_board = draw?(board)
 
-  
+  if won_board || full_board || draw_board
+    true
 end
