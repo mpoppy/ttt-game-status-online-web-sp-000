@@ -79,4 +79,5 @@ end
 
 def winner(board)
   winner = won?(board)
+  return winner[0]
 end
