@@ -39,11 +39,11 @@ def won?(board)
       return winner
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return winner
+    elsif board.empty?
+      false
     else
       false
     end
-
-    #binding.pry
   end
 end
 
