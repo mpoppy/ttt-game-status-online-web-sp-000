@@ -60,11 +60,10 @@ def full?(board)
 end
 
 def draw?(board)
-  if won?(board) != false
-    false
-  if full?(board) != false
-    true
-  end
+  if won?(board) = false #there is no winner
+    if full?(board) != false #then check if at least board is full
+      true
+    end
   end
 end
 
