@@ -64,7 +64,7 @@ def draw?(board)
   won_board = won?(board) #return winner (if winner) or false (no winner)
 
   if full_board != false && won_board = false
-    true
+    return true
   #elsif won_board != false
   #  false
   else
