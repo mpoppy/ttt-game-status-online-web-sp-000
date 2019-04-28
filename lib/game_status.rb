@@ -77,6 +77,8 @@ def over?(board)
   end
 end
 
+board = ["X", "X", "X", "X", "", "X", "O", "X", "O"]
+
 def winner(board)
   won_array = won?(board) #this will return the winning array or the false if no winner
   winning_char_1 = won_array[0]
