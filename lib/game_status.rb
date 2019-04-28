@@ -66,3 +66,11 @@ def draw?(board)
       true
     end
 end
+
+def over?(board)
+  full_board = full?(board)
+  won_board = won?(board)
+  draw_board = draw?(board)
+
+  
+end
