@@ -84,7 +84,7 @@ def winner(board)
     winning_letter = won_board[0] #grab any value and store to figure out if X or O is the winner
     if winning_letter = "X"
       return winning_letter
-    elsif winning_letter = "O"
+    else 
       return winning_letter
     end
   else
