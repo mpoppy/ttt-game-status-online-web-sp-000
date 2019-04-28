@@ -63,7 +63,13 @@ def draw?(board)
   full_board = full?(board)
   won_board = won?(board)
 
-
+  if won_board != false
+    false
+  elsif full_board == true && won_board = false
+    true
+  else
+    false
+  end
 end
 
 #def over?(board)
