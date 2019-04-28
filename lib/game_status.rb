@@ -91,5 +91,7 @@ def winner(board)
     return position_1
   elsif position_1 == "O"
     return position_1
+  else
+    nil
   end
 end
