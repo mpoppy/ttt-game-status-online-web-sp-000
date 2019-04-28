@@ -33,7 +33,7 @@ def won?(board)
     position_3 = board[win_index_3] #store board position 2
 
 
-    if position_taken?(board,position_1) == false && position_taken?(board, position_2) == false && position_taken?(board, position_taken) == false
+    if position_taken?(board, position_1) == false && position_taken?(board, position_2) == false && position_taken?(board, position_taken) == false
         false
     elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
       return winner
