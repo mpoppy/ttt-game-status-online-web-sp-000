@@ -32,8 +32,8 @@ def won?(board)
     position_2 = board[win_index_2] #store board position 1
     position_3 = board[win_index_3] #store board position 2
 
-     board.all? do |position|
-      if position != "X" || position 
+  #   board.all? do |position|
+      #if position != "X" || position
 
 
     if position_1 != "X" && position_2 != "X" && position_3 != "X"
