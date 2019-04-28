@@ -72,7 +72,7 @@ def over?(board)
   won_board = won?(board) #false if not a winner
   draw_board = draw?(board) #true is a draaw
 
-  if won_board != fa;se || full_board == true || draw_board == true
+  if won_board != false || full_board == true || draw_board == true
     true
   end
 end
