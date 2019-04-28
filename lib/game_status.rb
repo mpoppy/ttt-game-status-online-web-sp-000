@@ -85,11 +85,7 @@ def winner(board)
 
   position_1 = board[winning_char_1]
 
-
-
-  if position_1 == "X" #meaning we out if X or O is the winner
-    return position_1
-  elsif position_1 == "O"
+  if won?(board) != false
     return position_1
   else
     nil
