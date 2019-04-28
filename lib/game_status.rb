@@ -68,10 +68,10 @@ def draw?(board)
 end
 
 def over?(board)
-  full_board = full?(board)
-  won_board = won?(board)
-  draw_board = draw?(board)
+  full_board = full?(board) #true if full
+  won_board = won?(board) #false if not a winner
+  draw_board = draw?(board) #true is a draaw
 
-  if won_board || full_board || draw_board
+  if won_board != fa;se || full_board == true || draw_board == true
     true
 end
