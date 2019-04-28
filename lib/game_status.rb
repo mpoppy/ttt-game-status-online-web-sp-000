@@ -81,12 +81,13 @@ board = ["X", "X", "X", "O", " ", "X", "O", "X", "O"]
 
 def winner(board)
   won_array = won?(board) #this will return the winning array or the false if no winner 0,1,2
-  winning_char_1 = won_array[0]
 
-  position_1 = board[winning_char_1]
 
   if won?(board) != false
+    winning_char_1 = won_array[0]
+    position_1 = board[winning_char_1]
     return position_1
+  else
+    nil
   end
-  nil
 end
