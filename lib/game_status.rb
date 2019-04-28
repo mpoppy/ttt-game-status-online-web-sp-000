@@ -82,6 +82,10 @@ def winner(board)
   #need to find out what the winning was
   if won_board != false
     winning_letter = won_board[0]
+    if winning_letter = "X"
+      return winning_letter
+    else
+      return winning_letter
     return winning_letter
   else
     nil
