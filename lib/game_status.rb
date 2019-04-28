@@ -88,7 +88,5 @@ def winner(board)
     return winning_char_1
   elsif winning_char_1 == "O"
     return winning_char_1
-  else
-    nil # no winner so return nil
   end
 end
