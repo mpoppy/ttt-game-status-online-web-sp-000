@@ -85,4 +85,5 @@ def winner(board)
     return winning_letter
   else
     nil
+  end
 end
