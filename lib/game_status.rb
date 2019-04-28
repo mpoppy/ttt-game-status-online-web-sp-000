@@ -60,8 +60,6 @@ def full?(board)
 end
 
 def draw?(board)
-
-
   #false if not won and board is not full
   #false if the board is won
   #use full method for full conditions
