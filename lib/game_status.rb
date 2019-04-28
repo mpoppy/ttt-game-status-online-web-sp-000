@@ -33,9 +33,9 @@ def won?(board)
     position_3 = board[win_index_3] #store board position 2
 
 
-    if position_taken?(board, position_1) != true && position_taken?(board, position_2) != true && position_taken?(board, position_3) != true
-        false
-    elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
+    #if position_taken?(board, position_1) != true && position_taken?(board, position_2) != true && position_taken?(board, position_3) != true
+      #  false
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return winner
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return winner
