@@ -60,9 +60,8 @@ def full?(board)
 end
 
 def draw?(board)
-  if won?(board) == false #there is no winner
-    true
-  end
+  full?(board)
+  move?(board)
 end
 
 #def over?(board)
