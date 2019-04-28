@@ -63,10 +63,9 @@ def draw?(board)
   full_board = full?(board) #grab true (board full) or false (not full)
   won_board = won?(board) #return winner (if winner) or false (no winner)
 
-  if full_board != false && won_board = false
-    return true
-  #elsif won_board != false
-  #  false
+  if full_board == false #board is full
+    if won_board == false # no winner
+      true
   else
     false
   end
