@@ -90,6 +90,6 @@ def winner(board)
   if position_1 == "X" #meaning we out if X or O is the winner
     return position_1
   elsif position_1 == "O"
-    return winning_char_1
+    return position_1
   end
 end
