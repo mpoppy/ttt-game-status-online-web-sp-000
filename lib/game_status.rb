@@ -66,11 +66,3 @@ def draw?(board)
   end
 end
 
-#def over?(board)
-  #returns true if the board has been won, is a draw, or is full. Y
-#  if draw(board) == false # has full and won? inside it. if false, if board is won
-#    true
-#  else
-#    false
-#  end
-#end
