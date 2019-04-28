@@ -78,6 +78,8 @@ def over?(board)
 end
 
 def winner(board)
-  winner = won?(board)
-  return winner[0]
+  winner = won?(board) #this will return the winning array or the false
+  #need to find out what the winning was
+  letter = winner[0]
+  return letter
 end
