@@ -80,7 +80,7 @@ end
 def winner(board)
   won_board = won?(board) #this will return the winning array or the false if no winner
 
-  if won_board != false
+  if won_board != false #meaning we have a winner
     winning_letter = won_board[0] #grab any value and store to figure out if X or O is the winner
     if winning_letter = "X"
       return winning_letter
