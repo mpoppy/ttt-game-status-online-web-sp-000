@@ -64,7 +64,7 @@ def draw?(board)
   #false if the board is won
   #use full method for full conditions
   #use won board to see if board is won
-  full?(board) #return true if the board has not been won but is full
+  #full?(board) #return true if the board has not been won but is full
    if won?(board) != false #there is a winner
   else
     false
