@@ -62,6 +62,8 @@ end
 def draw?(board)
   full?(board)
   move?(board)
+
+  
 end
 
 #def over?(board)
