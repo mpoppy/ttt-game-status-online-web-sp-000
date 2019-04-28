@@ -74,8 +74,5 @@ end
 def over?(board)
   #returns true if the board has been won, is a draw, or is full. Y
   draw(board)
-    if full?(board)
-      if won?(board)
-      end
-    end
+  
 end
