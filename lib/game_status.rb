@@ -61,7 +61,7 @@ end
 
 def draw?(board)
   if won?(board) == false #there is no winner
-    if full?(board) != false #then check if at least board is full
+    if full?(board) == true #then check if at least board is full
       true
     end
   end
