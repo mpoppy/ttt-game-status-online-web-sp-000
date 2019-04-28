@@ -32,14 +32,17 @@ def won?(board)
     position_2 = board[win_index_2] #store board position 1
     position_3 = board[win_index_3] #store board position 2
 
+     board.all? do |position|
+      if position != "X" || position 
 
 
-
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    if position_1 != "X" && position_2 != "X" && position_3 != "X"
+      return false
+    elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
       return winner
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return winner
-    elsif board.empty?
+    elsif board.
       false
     else
       false
