@@ -80,11 +80,12 @@ end
 board = ["X", "X", "X", "O", " ", "X", "O", "X", "O"]
 
 def winner(board)
-  won_array = won?(board) #this will return the winning array or the false if no winner
-  winning_char_1 = won_array[0].to_string #0,1,2
+  won_array = won?(board) #this will return the winning array or the false if no winner 0,1,2
+  winning_char[0]
 
-  if winning_char_1 == "X" #meaning we have a winner
-     #grab any value and store to figure out if X or O is the winner
+
+
+  if winning_char_1 == "X" #meaning we out if X or O is the winner
     return winning_char_1
   elsif winning_char_1 == "O"
     return winning_char_1
