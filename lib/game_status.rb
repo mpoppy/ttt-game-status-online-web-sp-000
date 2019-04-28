@@ -87,9 +87,9 @@ def winner(board)
 
 
 
-  if winning_char_1 == "X" #meaning we out if X or O is the winner
-    return winning_char_1
-  elsif winning_char_1 == "O"
+  if position_1 == "X" #meaning we out if X or O is the winner
+    return position_1
+  elsif position_1 == "O"
     return winning_char_1
   end
 end
