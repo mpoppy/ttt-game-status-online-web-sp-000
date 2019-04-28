@@ -60,10 +60,10 @@ def full?(board)
 end
 
 def draw?(board)
-  full?(board)
-  move?(board)
+  full_board = full?(board)
+  won_board = won?(board)
 
-  
+
 end
 
 #def over?(board)
