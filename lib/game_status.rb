@@ -18,6 +18,7 @@ WIN_COMBINATIONS = [
 ]
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
 
 def won?(board)
@@ -47,9 +48,10 @@ def full?(board)
   board.all? do |position|
     if position == "X" || position == "O"
       true
+    else 
+      false
     end
   end
-  false
 end
 
 def draw?(board)
