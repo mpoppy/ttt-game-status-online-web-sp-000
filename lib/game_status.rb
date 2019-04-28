@@ -74,4 +74,5 @@ def over?(board)
 
   if won_board != fa;se || full_board == true || draw_board == true
     true
+  end
 end
